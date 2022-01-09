@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoreDataItem" representedClassName=".CoreDataItem" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="hostedBy" optional="YES" attributeType="String"/>
+        <attribute name="itemDescription" optional="YES" attributeType="String"/>
+        <attribute name="itemImage" optional="YES" attributeType="Binary"/>
+        <attribute name="itemRatingAndCount" optional="YES" attributeType="String"/>
+        <attribute name="liked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Dates" representedClassName=".Dates" syncable="YES" codeGenerationType="class">
+        <attribute name="chekInDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="chekOutDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="CoreDataItem" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="Dates" positionX="-63" positionY="45" width="128" height="59"/>
+    </elements>
+</model>

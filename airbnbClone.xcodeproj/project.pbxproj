@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8400CE4D27785AAB009D4D34 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400CE4C27785AAB009D4D34 /* ItemModel.swift */; };
+		841B420F2788B27900EEEACF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B420E2788B27900EEEACF /* DetailViewController.swift */; };
+		8465B2B3278ACFE000ADD4B6 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465B2B2278ACFE000ADD4B6 /* DatePickerViewController.swift */; };
 		847B5970276263B1000C4959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B596F276263B1000C4959 /* AppDelegate.swift */; };
 		847B5972276263B1000C4959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B5971276263B1000C4959 /* SceneDelegate.swift */; };
-		847B5974276263B1000C4959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B5973276263B1000C4959 /* ViewController.swift */; };
+		847B5974276263B1000C4959 /* ExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B5973276263B1000C4959 /* ExplorerViewController.swift */; };
 		847B5977276263B1000C4959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847B5975276263B1000C4959 /* Main.storyboard */; };
-		847B597A276263B1000C4959 /* airbnbClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847B5978276263B1000C4959 /* airbnbClone.xcdatamodeld */; };
+		847B597A276263B1000C4959 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847B5978276263B1000C4959 /* CoreDataModel.xcdatamodeld */; };
 		847B597C276263B2000C4959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847B597B276263B2000C4959 /* Assets.xcassets */; };
 		847B597F276263B2000C4959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847B597D276263B2000C4959 /* LaunchScreen.storyboard */; };
+		84D42A8D277853E2001F23B7 /* ExplorerItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D42A8C277853E2001F23B7 /* ExplorerItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8400CE4C27785AAB009D4D34 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		841B420E2788B27900EEEACF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8465B2B2278ACFE000ADD4B6 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		847B596C276263B1000C4959 /* airbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847B596F276263B1000C4959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847B5971276263B1000C4959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847B5973276263B1000C4959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847B5973276263B1000C4959 /* ExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerViewController.swift; sourceTree = "<group>"; };
 		847B5976276263B1000C4959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847B5979276263B1000C4959 /* airbnbClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = airbnbClone.xcdatamodel; sourceTree = "<group>"; };
 		847B597B276263B2000C4959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847B597E276263B2000C4959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847B5980276263B2000C4959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D42A8C277853E2001F23B7 /* ExplorerItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8465B2B4278AD55900ADD4B6 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				8400CE4C27785AAB009D4D34 /* ItemModel.swift */,
+				847B5978276263B1000C4959 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		847B5963276263B1000C4959 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +75,43 @@
 		847B596E276263B1000C4959 /* airbnbClone */ = {
 			isa = PBXGroup;
 			children = (
-				847B596F276263B1000C4959 /* AppDelegate.swift */,
-				847B5971276263B1000C4959 /* SceneDelegate.swift */,
-				847B5973276263B1000C4959 /* ViewController.swift */,
-				847B5975276263B1000C4959 /* Main.storyboard */,
+				84E21591278B3B87000A7B70 /* Delegates */,
+				8465B2B4278AD55900ADD4B6 /* Data Model */,
+				84D42A8F27785841001F23B7 /* View */,
+				84D42A8E27785817001F23B7 /* Controllers */,
 				847B597B276263B2000C4959 /* Assets.xcassets */,
-				847B597D276263B2000C4959 /* LaunchScreen.storyboard */,
 				847B5980276263B2000C4959 /* Info.plist */,
-				847B5978276263B1000C4959 /* airbnbClone.xcdatamodeld */,
 			);
 			path = airbnbClone;
+			sourceTree = "<group>";
+		};
+		84D42A8E27785817001F23B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				847B5973276263B1000C4959 /* ExplorerViewController.swift */,
+				841B420E2788B27900EEEACF /* DetailViewController.swift */,
+				8465B2B2278ACFE000ADD4B6 /* DatePickerViewController.swift */,
+				84D42A8C277853E2001F23B7 /* ExplorerItemTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84D42A8F27785841001F23B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				847B5975276263B1000C4959 /* Main.storyboard */,
+				847B597D276263B2000C4959 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84E21591278B3B87000A7B70 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				847B596F276263B1000C4959 /* AppDelegate.swift */,
+				847B5971276263B1000C4959 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847B5974276263B1000C4959 /* ViewController.swift in Sources */,
+				8400CE4D27785AAB009D4D34 /* ItemModel.swift in Sources */,
+				847B5974276263B1000C4959 /* ExplorerViewController.swift in Sources */,
+				8465B2B3278ACFE000ADD4B6 /* DatePickerViewController.swift in Sources */,
 				847B5970276263B1000C4959 /* AppDelegate.swift in Sources */,
 				847B5972276263B1000C4959 /* SceneDelegate.swift in Sources */,
-				847B597A276263B1000C4959 /* airbnbClone.xcdatamodeld in Sources */,
+				847B597A276263B1000C4959 /* CoreDataModel.xcdatamodeld in Sources */,
+				84D42A8D277853E2001F23B7 /* ExplorerItemTableViewCell.swift in Sources */,
+				841B420F2788B27900EEEACF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,9 +344,12 @@
 				DEVELOPMENT_TEAM = VHDFTCABKC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = airbnbClone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = airbnbClone;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to save";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,9 +375,12 @@
 				DEVELOPMENT_TEAM = VHDFTCABKC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = airbnbClone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = airbnbClone;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to save";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,13 +420,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		847B5978276263B1000C4959 /* airbnbClone.xcdatamodeld */ = {
+		847B5978276263B1000C4959 /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				847B5979276263B1000C4959 /* airbnbClone.xcdatamodel */,
 			);
 			currentVersion = 847B5979276263B1000C4959 /* airbnbClone.xcdatamodel */;
-			path = airbnbClone.xcdatamodeld;
+			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
